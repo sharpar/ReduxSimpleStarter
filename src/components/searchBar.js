@@ -9,7 +9,7 @@ class SearchBar extends Component {
 		this.state = {
 			term: ''
 		}
-		                           
+
 	}
 
 	render() {
@@ -17,11 +17,16 @@ class SearchBar extends Component {
 			<div className='search-bar'>
 				<input
 					placeholder="Search"
-					onChange={ event => this.setState({ term: event.target.value }) } />
-				{/*{this.state.term}*/}
+					onChange={ event => this.onInputChange(event.target.value) }/>
+				{ /*{this.state.term}*/ }
 			</div>
 		);
 		// always use set state to manupilate the state 
+	}
+
+	onInputChange(term) {
+	   this.setState({term});
+	   this.props.onSearchTermChange(term);
 	}
 }
 
