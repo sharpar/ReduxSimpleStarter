@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e5740eae-4774-44c4-b4a6-e134fd2f899d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/components/searchBar.js" afterPath="$PROJECT_DIR$/src/components/searchBar.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -91,8 +90,8 @@
       <file leaf-file-name="searchBar.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/searchBar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state relative-caret-position="361">
+              <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -350,7 +349,7 @@
       <workItem from="1513984564803" duration="1449000" />
       <workItem from="1513994910310" duration="1891000" />
       <workItem from="1514083912076" duration="2494000" />
-      <workItem from="1514158626511" duration="6329000" />
+      <workItem from="1514158626511" duration="6511000" />
     </task>
     <task id="LOCAL-00001" summary="move all files down a level to root">
       <created>1513808094716</created>
@@ -422,11 +421,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514238245413</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add search functionality to the search bar">
+      <created>1514238819817</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1514238819817</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29643000" />
+    <option name="totallyTimeSpent" value="29825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -473,7 +479,8 @@
     <MESSAGE value="Embed youtube video in iframe" />
     <MESSAGE value="Add ability to click on videos in list and show details for the one selected" />
     <MESSAGE value="Add styling to components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add styling to components" />
+    <MESSAGE value="Add search functionality to the search bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add search functionality to the search bar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -697,8 +704,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/searchBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state relative-caret-position="361">
+          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
           <folding />
         </state>
       </provider>
